@@ -1,0 +1,4 @@
+№40 2^N
+
+n = int(input())
+print(2**n)
