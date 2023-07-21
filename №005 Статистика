@@ -1,0 +1,15 @@
+№005 Статистика
+
+a = int(input()) 
+b = map(int, input().split()) 
+b = list(b)
+w = [i for i in b if i % 2 != 0] 
+print(*w) 
+q = [i for i in b if i % 2 == 0] 
+print(*q) 
+if len(w) > len(q): 
+    print('NO') 
+elif len(w) == len(q): 
+    print('YES') 
+else: 
+    print('YES')
