@@ -1,0 +1,10 @@
+№51 Факториалы!!!
+
+n,f = map(str, input().split())
+lenf = len(f)
+n = int(n)
+s = 1
+while n > 0:
+    s *= n
+    n -= lenf
+print(s)
