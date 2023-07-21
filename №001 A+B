@@ -1,0 +1,7 @@
+# №001 A+B
+
+n, i = map(int, input().split())
+ 
+sum = n + i
+ 
+print(sum)
