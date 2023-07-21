@@ -1,0 +1,8 @@
+№004 Игра
+
+i = int(input())
+ 
+n = 9 - i
+ 
+sum = str(i) + "9" + str(n)
+print(sum)
