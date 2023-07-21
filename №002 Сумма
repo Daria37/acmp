@@ -1,0 +1,8 @@
+ # №002 Сумма
+
+n=int(input())
+if n > 0: 
+    sum =(n + 1) * n / 2
+else: 
+    sum= (n - 1) * n / (-2) + 1
+print(int(sum))
