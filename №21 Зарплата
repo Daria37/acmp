@@ -1,0 +1,5 @@
+№21 Зарплата
+
+n = list(map(int, input().split()))
+s = max(n) - min(n)
+print(s)
