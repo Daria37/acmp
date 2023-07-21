@@ -1,0 +1,9 @@
+№10 Уравнение
+
+a, b, c, d = map(int, input().split())
+allx = []
+for x in range(-100,201):
+    if a*x**3+b*x**2+c*x+d==0: 
+        allx.append(x) 
+        x+=1
+print(*allx)
