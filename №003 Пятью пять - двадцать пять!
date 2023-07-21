@@ -1,0 +1,10 @@
+№003 Пятью пять - двадцать пять!
+
+n = int(input())
+a = n//10
+umn = a * (a+1)
+b = str(umn) + '25'
+if b[0] == '0':
+    print(b[1:])
+else:
+    print(b)
