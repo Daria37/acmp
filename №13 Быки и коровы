@@ -1,0 +1,12 @@
+№13 Быки и коровы
+
+A, B = map(str, input().split()) 
+bull = 0
+cow = 0
+for i in range(4): 
+    if A[i] == B[i]: 
+        bull += 1
+    if A[i] != B[i]: 
+        if A[i] in B:
+            cow += 1
+print(bull, cow, end = " ")
