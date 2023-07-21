@@ -1,0 +1,7 @@
+№33 Два бандита
+
+g, l = map(int, input().split())
+c=g+l-1
+g = c-g
+l = c-l
+print(g, l)
