@@ -1,0 +1,12 @@
+№22 Единицы
+
+n = int(input())
+s = ''
+while n > 0:
+    s = str(n % 2) + s
+    n //= 2
+x = 0
+for i in range(len(s)):
+    if s[i] == '1':
+        x += 1
+print(x)
