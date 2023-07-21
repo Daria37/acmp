@@ -1,0 +1,4 @@
+№007 Золото племени АББА
+
+n = list(map(int, input().split()))
+print(max(n))
