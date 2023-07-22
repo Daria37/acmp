@@ -1,0 +1,14 @@
+№272 Сумма максимума и минимума
+
+n = list(input().split(' '))
+min = int(n[0])
+max = int(n[1])
+for i in range(len(n)):
+    if i %2 == 0:
+        if int(n[i]) < max:
+            max = int(n[i])
+    else:
+        if int(n[i]) > min:
+            min = int(n[i])
+ 
+print(min + max)
