@@ -1,0 +1,16 @@
+№275 Делимость на 7
+
+x = int(input())
+for i in range(x):
+    n = str(input())
+    k = 2
+    lenn = int(len(n))
+    z = lenn - 1
+    s = 0
+    for i in range(lenn):
+        s += int(n[i]) * k ** z
+        z -= 1
+    if s % 7 == 0:
+        print('Yes')
+    else:
+        print('No')
