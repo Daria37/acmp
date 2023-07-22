@@ -1,0 +1,13 @@
+№106 Монетки
+
+n = int(input())
+one = 0
+zero = 0
+ 
+for i in range(n):
+    s = int(input())
+    if s == 1:
+        one += 1
+    else:
+        zero += 1
+print(min(one, zero))
