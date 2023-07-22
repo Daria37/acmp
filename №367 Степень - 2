@@ -1,0 +1,7 @@
+№367 Степень - 2
+
+import sys
+sys.set_int_max_str_digits(0)
+ 
+a, n = map(int, input().split())
+print(a**n)
