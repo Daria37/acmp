@@ -1,0 +1,14 @@
+№147 Числа Фибоначчи
+
+fib1 = fib2 = 1
+ 
+n = int(input())
+if n == 0:
+    print(0)
+else:
+    n = int(n) - 2
+ 
+    while n > 0:
+        fib1, fib2 = fib2, fib1 + fib2
+        n -= 1
+    print(fib2)
