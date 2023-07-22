@@ -1,0 +1,7 @@
+№754 Три толстяка
+
+n, m, s = map(int, input().split())
+if n >= 94 and n <= 727 and m >= 94 and m <= 727 and s >= 94 and s <= 727:
+    print(max(n, m, s))
+else:
+    print('Error')
