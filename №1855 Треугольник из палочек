@@ -1,0 +1,11 @@
+№1855 Треугольник из палочек
+
+a = int(input())
+b = int(input())
+c = int(input())
+ 
+x = a + c - b
+y = c + b - a
+n = a + b - c
+s = min(x, y, n)
+print(s)
