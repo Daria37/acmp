@@ -1,0 +1,14 @@
+№61 Баскетбол
+
+first = 0
+second = 0
+for i in range(4):
+    a, b = map(int, input().split())
+    first += a
+    second += b
+if first > second:
+    print(1)
+elif first < second:
+    print(2)
+else:
+    print('DRAW')
