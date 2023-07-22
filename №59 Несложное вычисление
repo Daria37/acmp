@@ -1,0 +1,14 @@
+№59 Несложное вычисление
+
+n, k = map(int, input().split())
+s = ''
+x = 1
+y = 0
+while n > 0:
+    s = str(n % k) + s
+    n //= k
+for i in range(len(s)):
+    x *= int(s[i])
+    y += int(s[i])
+z = x - y
+print(z)
