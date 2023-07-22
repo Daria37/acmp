@@ -1,0 +1,12 @@
+№310 Рамка из клеток
+
+n = int(input())
+s = ''
+for i in range(n):
+    x, y, a = map(int,input().split())
+    if a == 1 or a == 2 or (x % a == 0 and y % a == 2) or (y % a == 0 and x % a == 2) or (x % a == 1 and y % a == 1):
+        s+= '1'
+    else:
+        s+= '0'
+ 
+print(s)
