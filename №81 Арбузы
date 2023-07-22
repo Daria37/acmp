@@ -1,0 +1,7 @@
+№81 Арбузы
+
+n = int(input())
+s = list(map(int, input().split()))
+maxi = max(s)
+mini = min(s)
+print(mini, maxi)
