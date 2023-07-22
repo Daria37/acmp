@@ -1,0 +1,16 @@
+№233 Автобусная экскурсия
+
+n = int(input())
+a = input().split(' ')
+mx = 437
+k = 0
+ 
+for i in range(n):
+    if int(a[i]) <= mx:
+        k = i + 1
+        break
+ 
+if k == 0:
+    print('No crash')
+else:
+    print('Crash ' + str(k))
