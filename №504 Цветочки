@@ -1,0 +1,9 @@
+№504 Цветочки
+
+n = int(input())
+st = 'GCV'
+for i in range(n):
+    st = st[0] + st[2] + st[1]
+    st = st[1] + st[0] + st[2]
+ 
+print(st)
