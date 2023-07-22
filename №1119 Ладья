@@ -1,0 +1,8 @@
+№1119 Ладья
+
+x1, x2 = map(int, input().split())
+y1, y2 = map(int, input().split())
+if x2 == y2 or x1 == y1:
+    print('YES')
+else:
+    print('NO')
