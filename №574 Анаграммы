@@ -1,0 +1,12 @@
+№574 Анаграммы
+
+n = str(input())
+a = str(input())
+ 
+sortinga = ''.join(sorted(a))
+sortingn = ''.join(sorted(n))
+ 
+if sortinga == sortingn:
+    print('YES')
+else: 
+    print('NO')
