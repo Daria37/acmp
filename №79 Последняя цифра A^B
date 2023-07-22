@@ -1,0 +1,5 @@
+№79 Последняя цифра A^B
+
+a, b = map(int, input().split())
+c = (a**b) % 10
+print(c)
