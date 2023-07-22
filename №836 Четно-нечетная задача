@@ -1,0 +1,20 @@
+№836 Четно-нечетная задача
+
+n = int(input())
+lst = list(input().split(' '))
+s = []
+l = 0
+for i in range(n):
+    h = int(lst[i])
+    if h % 2 == 0:
+        m = str(oct(h))
+        if int(m[-3]) % 2 != 0:
+            s.append(h)
+            l += 1
+ 
+print(l)
+if l == 0:
+    print(' ')
+else:
+    b = sorted(s)
+    print(*b)
