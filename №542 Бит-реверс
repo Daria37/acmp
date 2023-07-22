@@ -1,0 +1,8 @@
+№542 Бит-реверс
+
+a = int(input())
+b = 0
+while a:
+    b = b * 2 + a % 2
+    a //= 2
+print(b)
