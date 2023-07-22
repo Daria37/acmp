@@ -1,0 +1,12 @@
+№68 Дом - Школа - Дом
+
+n = input()
+x = int(input())
+if n == 'Home' and x % 2 > 0:
+    print('Yes')
+elif n == 'Home' and x % 2 == 0:
+    print('Yes')
+if n == 'School' and x % 2 == 0:
+    print('No')
+elif n == 'School' and x % 2 > 0:
+    print('Yes')
