@@ -1,0 +1,5 @@
+№528 Замок
+
+N, K = map(int, input().split())
+kol=(K+1)*((N-2)*K+2)//2
+print(kol)
