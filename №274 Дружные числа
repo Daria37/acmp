@@ -1,0 +1,9 @@
+№274 Дружные числа
+
+k = int(input())
+for i in range(k):
+    a, b = map(int, input().split())
+    if set(str(a)) == set(str(b)):
+        print("YES")
+    else:
+        print("NO")
