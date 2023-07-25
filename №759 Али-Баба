@@ -1,0 +1,11 @@
+№759 Али-Баба
+
+n, m = map(int, input().split())
+lst = list(map(int, input().split()))
+lst.sort(reverse = True)
+k = 0
+for i in range(m):
+    if lst[i] >= 0:
+        k += lst[i]
+
+print(k)
