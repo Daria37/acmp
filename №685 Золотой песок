@@ -1,0 +1,11 @@
+№685 Золотой песок
+
+a1, a2, a3, b1, b2, b3 = map(int, input().split())
+mx = max(a1,a2,a3)
+Mx = max(b1,b2,b3)
+nx = min(a1,a2,a3)
+Nx = min(b1,b2,b3)
+xx = (a1 + a2 + a3 - mx - nx) * (b1 + b2 + b3 - Mx - Nx)
+x1 = mx*Mx
+x2 = nx * Nx
+print(x1+x2+xx)
