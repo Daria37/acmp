@@ -1,0 +1,8 @@
+№907 Мышка
+
+w,h,r=map(int,input().split())
+d=2*r
+if d<=h and d<=w:
+    print("YES")
+else:
+    print("NO")
