@@ -1,0 +1,12 @@
+№692 Бинарные числа
+
+a = int (input())
+k=0
+while 2**k<=a:
+    k+=1
+if 2**(k-1)==a:
+    print("YES")
+elif a==1:
+    print("YES")
+else:
+    print("NO")
