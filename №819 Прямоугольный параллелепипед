@@ -1,0 +1,6 @@
+№819 Прямоугольный параллелепипед
+
+a, b, c = map(int, input().split())
+metr = 2*(a*b + b*c + c*a)
+massa = a*b*c
+print(metr, massa)
