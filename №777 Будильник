@@ -1,0 +1,9 @@
+№777 Будильник
+
+l,s=map(int,input().split()) 
+if l == 12 : 
+  print(s) 
+elif l < s : 
+  print(abs(l - s)) 
+elif l > s : 
+  print(abs((l - s) - 12))
