@@ -1,0 +1,10 @@
+№550 День программиста
+
+god = input()
+if len(god) < 4:
+    while len(god) < 4:
+        god = '0' + god
+if int(god) % 400 == 0 or (int(god) % 4 == 0 and int(god) % 100 != 0):
+    print('12/09/' + god)
+else:
+    print('13/09/' + god)
