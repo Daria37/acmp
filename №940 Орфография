@@ -1,0 +1,8 @@
+№940 Орфография
+
+k, m = input().split()
+res = ''
+for i in range(0, len(m)):
+    if i+1 != int(k):
+        res += m[i]
+print(res)
