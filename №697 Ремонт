@@ -1,0 +1,7 @@
+№697 Ремонт
+
+l, w, h = map(int, input().split())
+if (2*h*(w+l)) %16 == 0:
+    print(int((2*h*(w+l)) //16))
+else:
+    print(int(((2*h*(w+l)) // 16) + 1))
