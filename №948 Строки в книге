@@ -1,0 +1,7 @@
+№948 Строки в книге
+
+k,n=map(int,input().split())
+f1=(n+k-1)//k
+f2=n-(n//k*k)
+f2=0**f2*k+f2
+print(f1,f2)
