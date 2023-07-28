@@ -1,0 +1,10 @@
+№933 Телефон
+
+a, b, c, t = map(int, input().split())
+if a == t:
+    print(a*b)
+elif a>t:
+    print(t*b)
+else:
+    n = (a*b) + ((t-a)*c)
+    print(n)
