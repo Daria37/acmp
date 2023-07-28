@@ -1,0 +1,8 @@
+№818 Кипячение чая
+
+n = int(input())
+lst = list(map(int, input().split()))
+k = 1
+for i in range(n):
+    k = k + lst[i] -1
+print(k)
