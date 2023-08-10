@@ -1,0 +1,14 @@
+№131 Перепись
+
+n = int(input())
+mx = 0
+for i in range(n):
+    a, s = map(int, input().split())
+    if s == 1:
+        if a> mx:
+            mx = a
+            k = i+1
+if mx == 0:
+    print('-1')
+else:
+    print(k)
