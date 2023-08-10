@@ -1,0 +1,25 @@
+№62 Клетки
+
+n = input()
+if n[0] == 'A':
+    s = 1
+elif n[0] == 'B':
+    s = 2
+elif n[0] == 'C':
+    s = 3
+elif n[0] == 'D':
+    s = 4
+elif n[0] == 'E':
+    s = 5
+elif n[0] == 'F':
+    s = 6
+elif n[0] == 'G':
+    s = 7
+else:
+    s = 8
+
+num = s + int(n[1])
+if num%2 == 0:
+    print('BLACK')
+else:
+    print('WHITE')
