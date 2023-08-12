@@ -1,0 +1,11 @@
+№284 Подмассив массива
+
+n = int(input())
+lst = list(map(int, input().split()))
+m = int(input())
+l = ''
+for i in range(m):
+    h, k = map(int, input().split())
+    p = lst[h-1:k]
+    for j in p:
+        print(j, end=' ')
