@@ -1,0 +1,6 @@
+№894 Кольцо
+
+import math
+s, r1 = map(float, input().split())
+r = (((r1**2)*math.pi-s)/math.pi)**(0.5)
+print("{:.3f}".format(r))
