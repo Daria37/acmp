@@ -1,0 +1,7 @@
+№844 Поля
+
+a, b = map(int, input().split())
+if ((a*b)**(0.5)) % 1 != 0:
+    print(0)
+else:
+    print(int((a*b)**(0.5)))
