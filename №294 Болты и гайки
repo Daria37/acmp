@@ -1,0 +1,16 @@
+№294 Болты и гайки
+
+s1, p1, c1 = map(int, input().split())
+s2, p2, c2 = map(int, input().split())
+lb = s1*p1/100
+i1 = s1-lb
+lg = s2*p2/100
+i2 = s2-lg
+if i1 != i2:
+    if i1 > i2:
+        o = (i1-i2)*c1
+    else:
+        o = (i2-i1)*c2
+    print(int((lb*c1)+(lg*c2)+o))
+else:
+    print(int((lb*c1)+(lg*c2)))
