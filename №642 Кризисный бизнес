@@ -1,0 +1,12 @@
+№642 Кризисный бизнес
+
+n, m = map(int, input().split())
+l = list(map(int, input().split()))
+car = 0
+l.sort()
+for i in range(n):
+    if int(m) - int(l[i]) >=0:
+        car += 1
+        m = m - l[i]
+
+print(car)
