@@ -1,0 +1,9 @@
+№387 Левая рекурсия
+
+n = int(input())
+k = 0
+for i in range(n):
+    s = input()
+    if s[0] == s[3]:
+        k +=1
+print(k)
