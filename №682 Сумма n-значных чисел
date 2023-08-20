@@ -1,0 +1,14 @@
+№682 Сумма n-значных чисел
+
+n = int(input())
+if n>=4:
+    nine = '9' * (n-3)
+    zero = '0' * (n-2)
+if n == 1:
+    print(45)
+elif n == 2:
+    print(4905)
+elif n == 3:
+    print(494550)
+else:
+    print(int('494'+ nine + '55' + zero))
